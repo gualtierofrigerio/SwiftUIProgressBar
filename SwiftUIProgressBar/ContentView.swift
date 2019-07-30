@@ -10,11 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var progressBarValue:Length = 0
+    @State var progressBarValue:CGFloat = 0
     
     var body: some View {
         VStack {
             ProgressBar(value: $progressBarValue)
+            CircularProgressBar(value: $progressBarValue)
+            CircularActivityIndicatory()
+            KnightRider()
         }.onAppear {
             Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
                 self.progressBarValue += 0.1
