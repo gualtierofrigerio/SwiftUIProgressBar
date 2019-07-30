@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251A57F922F031700096FBD9 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A57F822F0316F0096FBD9 /* CircularProgressBar.swift */; };
+		251A57FB22F035DD0096FBD9 /* CircularActivityIndicatory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A57FA22F035DD0096FBD9 /* CircularActivityIndicatory.swift */; };
+		251A57FD22F03E210096FBD9 /* KnightRider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A57FC22F03E210096FBD9 /* KnightRider.swift */; };
 		2521F0B922EB0BED00DEDE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521F0B822EB0BED00DEDE40 /* AppDelegate.swift */; };
 		2521F0BB22EB0BED00DEDE40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521F0BA22EB0BED00DEDE40 /* SceneDelegate.swift */; };
 		2521F0BD22EB0BED00DEDE40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521F0BC22EB0BED00DEDE40 /* ContentView.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251A57F822F0316F0096FBD9 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		251A57FA22F035DD0096FBD9 /* CircularActivityIndicatory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularActivityIndicatory.swift; sourceTree = "<group>"; };
+		251A57FC22F03E210096FBD9 /* KnightRider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightRider.swift; sourceTree = "<group>"; };
 		2521F0B522EB0BED00DEDE40 /* SwiftUIProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2521F0B822EB0BED00DEDE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2521F0BA22EB0BED00DEDE40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				2521F0B822EB0BED00DEDE40 /* AppDelegate.swift */,
+				251A57FA22F035DD0096FBD9 /* CircularActivityIndicatory.swift */,
+				251A57F822F0316F0096FBD9 /* CircularProgressBar.swift */,
 				2521F0BC22EB0BED00DEDE40 /* ContentView.swift */,
+				251A57FC22F03E210096FBD9 /* KnightRider.swift */,
 				2521F0CC22EB0D1000DEDE40 /* ProgressBar.swift */,
 				2521F0BA22EB0BED00DEDE40 /* SceneDelegate.swift */,
 				2521F0BE22EB0BEF00DEDE40 /* Assets.xcassets */,
@@ -150,6 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2521F0B922EB0BED00DEDE40 /* AppDelegate.swift in Sources */,
+				251A57FD22F03E210096FBD9 /* KnightRider.swift in Sources */,
+				251A57F922F031700096FBD9 /* CircularProgressBar.swift in Sources */,
+				251A57FB22F035DD0096FBD9 /* CircularActivityIndicatory.swift in Sources */,
 				2521F0BB22EB0BED00DEDE40 /* SceneDelegate.swift in Sources */,
 				2521F0CD22EB0D1000DEDE40 /* ProgressBar.swift in Sources */,
 				2521F0BD22EB0BED00DEDE40 /* ContentView.swift in Sources */,
