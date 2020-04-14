@@ -14,8 +14,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            ProgressBar(value: $progressBarValue)
-            CircularProgressBar(value: $progressBarValue)
+            ProgressBar(value: progressBarValue)
+            CircularProgressBar(value: progressBarValue)
             CircularActivityIndicatory()
             KnightRider()
         }.onAppear {
